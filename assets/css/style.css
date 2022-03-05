@@ -459,6 +459,7 @@
   text-align: center;
   padding-bottom: 12px;
   border-bottom: 1px solid #3d3d3d;
+  cursor: pointer;
 }
 
 .mobile-menu--active {

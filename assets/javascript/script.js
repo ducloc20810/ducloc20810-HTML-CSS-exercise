@@ -6,6 +6,9 @@ const line = $(".header__nav-choice");
 const items = $$(".header__nav-item");
 const mobileItems = $$(".mobile-menu ul li");
 
+const offsetWidths = Array.from(items).map((item) => item.offsetWidth);
+const offsetLefts = Array.from(items).map((item) => item.offsetLeft);
+
 let active = $(".header__nav-item--active");
 line.style.width = active.offsetWidth + "px";
 line.style.left = active.offsetLeft + "px";
@@ -21,8 +24,23 @@ Array.from(items).forEach((item, index) => {
     line.style.left = active.offsetLeft + "px";
 
     // Mobile handle
-    $(".mobile-menu__active").classList.remove("mobile-menu--active");
+    $(".mobile-menu--active").classList.remove("mobile-menu--active");
     mobileItems[index].classList.add("mobile-menu--active");
+  };
+});
+
+Array.from(mobileItems).forEach((item, index) => {
+  item.onclick = function () {
+    // Mobile handle
+    $(".mobile-menu--active").classList.remove("mobile-menu--active");
+    item.classList.add("mobile-menu--active");
+    items[index].classList.add("header__nav-item--active");
+    active.classList.remove("header__nav-item--active");
+
+    active = items[index];
+
+    line.style.width = offsetWidths[index] + "px";
+    line.style.left = offsetLefts[index] + "px";
   };
 });
 
