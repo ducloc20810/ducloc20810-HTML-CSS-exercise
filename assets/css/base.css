@@ -1,0 +1,65 @@
+@font-face {
+  font-family: RaleWay;
+  src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url(../fonts/Open_Sans/OpenSans-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+:root {
+  --primary-color: #f26522;
+  --intro-height: 775px;
+  --padding-content: 200px;
+  --wall-height: 920px;
+  --content-bottom-body-padding-left: 60px;
+  --content-bottom-body-padding-right: 160px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  --webkit-font-smoothing: antialiased;
+  background: white;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  font-family: "RaleWay", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem 0;
+  font-family: "Open_Sans", san-serif;
+}
+
+.img {
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

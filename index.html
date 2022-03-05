@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1</title>
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/aa98db49e7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="container">
+          <div class="header__top">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item header__nav-item--active">ABOUT</li>
+                <li class="header__nav-item">PRODUCTS</li>
+                <li class="header__nav-item">PROJECTS</li>
+                <li class="header__nav-item">CONTACT</li>
+              </ul>
+              <div class="header__nav-choice"></div>
+            </nav>
+
+            <div class="header__logo">
+              <img src="./assets/images/Header Logo.png" alt="logo" />
+            </div>
+
+            <button type="button" class="hamburger" id="menu-btn--open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="mobile-menu hidden" id="menu">
+            <i class="fa-regular fa-circle-xmark mobile-menu__close"></i>
+
+            <ul>
+              <li class="mobile-menu--active">ABOUT</li>
+              <li class="">PRODUCTS</li>
+              <li class="">PROJECTS</li>
+              <li class="">CONTACT</li>
+            </ul>
+          </div>
+
+          <div class="header__content">
+            <i class="fa-solid fa-minus header__content-icon"></i>
+            <h1>SLEEK AS FKUC</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis mollitia minus, sit reprehenderit delectus cum facilis
+              perspiciatis commodi expedita dicta nemo ipsum laboriosam impedit
+              beatae facere non magni neque a?
+            </p>
+
+            <div class="header__content-nav-icon">
+              <i class="fa-solid fa-minus"></i>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+
+            <i class="fa-solid fa-minus header__content-icon"></i>
+          </div>
+
+          <div class="header__bottom">
+            <button class="btn header__btn">
+              <i class="fa-solid fa-arrow-down-long"></i>
+            </button>
+            <button class="btn header__btn header__btn--active">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <div class="container">
+          <div class="content__intro">
+            <div class="content__intro-left">
+              <h1>BRIGHT ASS ORANGE</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At id
+                alias cupiditate veniam? Ea dicta non earum laborum, minima
+                laboriosam? Reprehenderit consectetur quidem tenetur eos
+                perspiciatis error dolorem illum vero?
+              </p>
+
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+              </p>
+            </div>
+            <div class="content__intro-right">
+              <img src="./assets/images/Rectangle 5.png" alt="" />
+              <div>
+                <h1>FINALLY A LAYOUT THAT BLOWS YOUR HEAD OFF</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cupiditate expedita itaque inventore labore totam cumque
+                  quibusdam nesciunt, unde recusandae magni minima accusantium
+                  vel molestias facilis minus, commodi libero sint optio!
+                </p>
+                <span>
+                  <i class="fa-solid fa-dove"></i>
+                  <a href="#">Tweet this shit</a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__place">
+            <h1 class="content__place-heading">MELLBOURNE, AUSTRALIA</h1>
+            <div class="content__place-body">
+              <div class="content__place-body-left text-left">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum. Sed ut
+                  perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                  consequuntur magni dolores eos qui ratione voluptatem sequi
+                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                  dolor sit amet, consectetur, adipisci velit, sed quia non
+                  numquam eius modi tempora incidunt ut labore et dolore magnam
+                  aliquam quaerat voluptatem.
+                </p>
+              </div>
+
+              <div class="content__place-body-right text-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum. Sed ut
+                  perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                  consequuntur magni dolores eos qui ratione voluptatem sequi
+                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                  dolor sit amet, consectetur, adipisci velit, sed quia non
+                  numquam eius modi tempora incidunt ut labore et dolore magnam
+                  aliquam quaerat voluptatem.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__bottom">
+            <div class="content__bottom-wall"></div>
+            <div class="content__bottom-body">
+              <div class="content__bottom-body-header">
+                <h1>WORDS & SUCH</h1>
+                <img src="./assets/images/Rectangle 11.png" alt="" />
+              </div>
+
+              <div class="content__bottom-body-text">
+                <div class="text-left">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+
+                  <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque
+                    ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                    dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                    velit, sed quia non numquam eius modi tempora incidunt ut
+                    labore et dolore magnam aliquam quaerat voluptatem.
+                  </p>
+                </div>
+                <div class="text-right">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+
+                  <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque
+                    ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                    dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                    velit, sed quia non numquam eius modi tempora incidunt ut
+                    labore et dolore magnam aliquam quaerat voluptatem.
+                  </p>
+                </div>
+              </div>
+
+              <div class="content__bottom-body-take-action">
+                <h1>TAKE ACTION</h1>
+
+                <form action="#" class="form">
+                  <input type="text" class="input__name" placeholder="Name" />
+                  <input
+                    type="text"
+                    class="input__phone"
+                    placeholder="Contact Phone"
+                  />
+
+                  <input type="text" class="input__email" placeholder="Email" />
+                  <button class="form__submit">SIGN UP</button>
+
+                  <div></div>
+                </form>
+              </div>
+
+              <div class="content__bottom-footer">
+                <div class="content__bottom-footer-wall"></div>
+                <div class="content__intro content__intro--left">
+                  <div class="content__intro-left">
+                    <h1>BRIGHT ASS ORANGE</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      At id alias cupiditate veniam? Ea dicta non earum laborum,
+                      minima laboriosam? Reprehenderit consectetur quidem
+                      tenetur eos perspiciatis error dolorem illum vero?
+                    </p>
+
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                      irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                  </div>
+                  <div class="content__intro-right">
+                    <img src="./assets/images/wall.png" alt="" />
+                    <div>
+                      <h1>FINALLY A LAYOUT THAT BLOWS YOUR HEAD OFF</h1>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Cupiditate expedita itaque inventore labore totam
+                        cumque quibusdam nesciunt, unde recusandae magni minima
+                        accusantium vel molestias facilis minus, commodi libero
+                        sint optio!
+                      </p>
+                      <span>
+                        <i class="fa-solid fa-dove"></i>
+                        <a href="#">Tweet this shit</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h1>Quicklinks</h1>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+            </li>
+
+            <li class="footer__item">
+              <h1>Quicklinks</h1>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+            </li>
+
+            <li class="footer__item">
+              <h1>Quicklinks</h1>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+            </li>
+
+            <li class="footer__item">
+              <h1>Quicklinks</h1>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+            </li>
+
+            <li class="footer__item">
+              <h1>Quicklinks</h1>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+              <a href="#">A Footer Link</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/javascript/script.js"></script>
+  </body>
+</html>

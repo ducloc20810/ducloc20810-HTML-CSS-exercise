@@ -1,0 +1,137 @@
+@media (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__nav {
+    display: none;
+  }
+
+  .header__logo {
+    transform: rotate(-90deg) translateY(60%);
+
+    position: unset;
+  }
+
+  .header__content {
+    padding: 0 30px;
+  }
+
+  .header__bottom {
+    padding: 0 30px;
+  }
+
+  .content__intro {
+    height: unset;
+    margin-top: -30px;
+    display: block;
+  }
+
+  .content__intro-left {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .content__intro-right div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .content__place {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .content__place-body {
+    display: block;
+  }
+
+  .content__bottom-body {
+    margin-left: 0;
+  }
+
+  .content__bottom-body-header {
+    display: block;
+    max-width: unset;
+  }
+
+  .content__bottom-body-header h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .content__bottom-body-header img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .content__bottom-body-text {
+    display: block;
+    padding: 40px 30px;
+  }
+
+  .text-left,
+  .text-right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .content__bottom-body-take-action {
+    padding: 20px 30px;
+  }
+
+  .content__bottom-body-take-action h1 {
+    text-align: center;
+  }
+
+  .form {
+    display: block;
+    position: relative;
+  }
+
+  .form input {
+    margin: 12px auto;
+    width: 100%;
+  }
+
+  .form button {
+    position: relative;
+    margin: 12px 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+
+  .footer__item h1 {
+    margin-bottom: 10px;
+  }
+  .footer__item:last-child {
+    justify-self: center;
+    grid-column-start: span 2;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  .header {
+    padding: 30px;
+  }
+
+  .content__place {
+    padding: 30px;
+  }
+}
