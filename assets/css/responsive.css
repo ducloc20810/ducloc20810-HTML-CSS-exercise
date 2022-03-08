@@ -1,4 +1,7 @@
 @media (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
   .header {
     padding: 0;
     height: 924px;
@@ -119,7 +122,7 @@
   }
   .footer__item:last-child {
     justify-self: center;
-    grid-column-start: span 2;
+    grid-column: 1/3;
   }
 }
 
