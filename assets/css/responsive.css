@@ -1,10 +1,7 @@
 @media (max-width: 1024px) {
-  .hamburger {
-    display: block;
-  }
-
   .header {
     padding: 0;
+    height: 924px;
   }
 
   .header__top {
